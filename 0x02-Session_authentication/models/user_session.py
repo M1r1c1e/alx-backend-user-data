@@ -5,7 +5,7 @@ from models.base import Base
 
 
 class UserSession(Base):
-    """User session class.
+    """defining the user session class.
     """
 
     def __init__(self, *args: list, **kwargs: dict):
